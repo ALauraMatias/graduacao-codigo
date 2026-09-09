@@ -20,9 +20,9 @@ Práticas desenvolvidas durante a disciplina de Desenvolvimento Web, com foco no
 
 **Práticas:**
 
-* [Prática 01](./desenvolvimento-web/pratica-01) — Primeira prática em HTML
-* [Prática 02](./desenvolvimento-web/pratica-02) — Segunda prática em HTML
-
+* [Prática 01](.desenvolvimento-web/pratica_01) — Primeira prática em HTML
+* [Prática 02](.desenvolvimento-web/pratica_02) — Segunda prática em HTML
+* [Prática 02](.desenvolvimento-web/pratica_03) — Terceira prática em HTML
 ---
 
 ### 🐍 Linguagem de Programação
@@ -35,8 +35,6 @@ Exercícios e práticas desenvolvidos durante a disciplina de Linguagem de Progr
 
 **Práticas:**
 
-* [Prática 01](./linguagem-de-programacao/pratica-01) — Primeira prática em Python
-
 ---
 
 ## 🗂️ Organização
@@ -46,11 +44,11 @@ Os códigos estão organizados de acordo com a disciplina e a prática correspon
 📁 graduacao-codigos
 │
 ├── 📁 desenvolvimento-web
-│   ├── 📁 pratica-01
-│   └── 📁 pratica-02
+│   ├── 📝 pratica-01
+│   └── 📝 pratica-02
+│   └── 📝 pratica-02
 │
 ├── 📁 linguagem-de-programacao
-│   └── 📁 pratica-01
 │
 └── 📄 README.md
 ```
