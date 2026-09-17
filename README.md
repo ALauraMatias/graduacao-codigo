@@ -20,8 +20,8 @@ Práticas desenvolvidas durante a disciplina de Desenvolvimento Web, com foco no
 
 **Práticas:**
 
-* [Prática 01](.desenvolvimento-web/pratica_01) — Primeira prática em HTML
-* [Prática 02](.desenvolvimento-web/pratica_02) — Segunda prática em HTML
+* [Prática 01](.desenvolvimento-web/pratica_01) — Primeira prática em HTML- Site Simples
+* [Prática 02](.desenvolvimento-web/pratica_02) — Segunda prática em HTML - Site Simples
 * [Prática 02](.desenvolvimento-web/pratica_03) — Terceira prática em HTML
 ---
 
