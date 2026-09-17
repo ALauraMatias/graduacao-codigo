@@ -1,0 +1,51 @@
+<!--(1/4)-->
+<!-- minlenght é um tamanho minimo para a resposta-->
+<!-- autofocus: coloca o cursor neste campo assim que a página carrega -->
+<!-- required: torna o preenchimento obrigatório -->
+<form action ="/pagina-processa-dados-do-form" method="post">
+	<fieldset>
+		<legend>Dados Gerais</legend>
+		<label for="nome">Nome:</label>
+		<input type="text"  name="nome" minlength="3" 
+		placeholder="Digite seu nome completo" required autofocus id="nome"/>
+		<label for="idade">Idade:</label>
+		<input type="number" min="18" placeholder="Ex:25" id="idade"/>
+		<label for="data_nascimento">Data Nascimento:</label>
+		<input type="date" placeholder="00/00/0000" id="data_nascimento"/>
+		<label for="cpf">CPF:</label>
+		<input type="text" placeholder="000.000.000-00"id="cpf"/>
+		<label for="telefone">Telefone:</label>
+		<input type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00)0.0000-0000" id="telefone">
+	</fieldset>
+<!--(2/4)-->
+	<fieldset>
+		<legend>Endereço</legend>
+		<label for="tipo_endereco">Tipo:</label>
+		<select id="tipo_endereco">
+			<option value="">Selecione</option>
+			<option value="">Rua</option>
+			<option value="">Estrada</option>
+			<option value="">Rodovia</option>
+			<option value="">Outros</option>
+		</select>
+		<label for="logradouro_endereco">Logradouro:</label>
+		<input type="text" id="logradouro_endereco"/>
+		<label for="num_endereco"> Número: </label>
+		<input type="text" id="num_endereco"/>
+		<label for="complemento_endereco"> Complemento: </label>
+		<input type="text" id="complemento_endereco"/>
+	</fieldset>
+<!-- (3/4)-->
+	<fieldset>
+		<legend>Fale Conosco</legend>
+		<label for="msg">Mensagem:</label>
+		<input type="text" id="msg"/>
+		<label for="agendamento">Data e Hora de Agendamento</label>
+		<input type="datetime-local" id="agendamento"/>
+	</fieldset>
+<!--(4/4)-->
+	<fieldset>
+		<button type="submit"> Enviar sua mensagem</button>
+		<button type="reset">Limpar o fomulário</button>
+	</fieldset>
+</form>
