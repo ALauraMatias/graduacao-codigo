@@ -20,12 +20,12 @@ Práticas desenvolvidas durante a disciplina de Desenvolvimento Web, com foco no
 
 **Práticas:**
 
-* [Prática 01](desenvolvimento-web/pratica_01) — Prática em HTML- Site Simples
-* [Prática 02](desenvolvimento-web/pratica_04) — Prática em HTML - Construção de tabela
-* [Prática 03](desenvolvimento-web/pratica_04) — Projeto final em HTML - Entrega do projeto final
-* [Prática 04](desenvolvimento-web/pratica_04) — Prática CSS  - Desenvolvimento de formulário 1
-* [Prática 04](desenvolvimento-web/pratica_04) — Prática CSS  - Desenvolvimento de formulário 2 (Calculadora)
-* [Prática 04](desenvolvimento-web/pratica_04) — Prática CSS  - Posicionamento em tela 
+* [Prática 01](desenvolvimento-web/Pratica_01.html) — Prática em HTML- Site Simples
+* [Prática 02](desenvolvimento-web/pratica_02.html) — Prática em HTML - Construção de tabela
+* [Prática 03](desenvolvimento-web/pratica_03.html) — Projeto final em HTML - Entrega do projeto final
+* [Prática 04](desenvolvimento-web/pratica_04_css.html) — Prática CSS  - Desenvolvimento de formulário 1
+* [Prática 05](desenvolvimento-web/pratica_05_css.html) — Prática CSS  - Desenvolvimento de formulário 2 (Calculadora)
+* [Prática 06](desenvolvimento-web/pratica_06_css.html) — Prática CSS  - Posicionamento em tela 
 ---
 
 ### 🐍 Linguagem de Programação
