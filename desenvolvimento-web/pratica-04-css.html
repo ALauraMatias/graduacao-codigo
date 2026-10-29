@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ 
+	font-family: 'helvetica', cursive;
+	font-size: 15px;
+	text-align: justify;
+	color: #17202a;
+}
+/*Todos os elementos numa única linha*/
+#container-flexbox-row div {
+	width:100px;
+	height:50px;
+	background-color: #ebf1f8
+}
+#container-flexbox-row{
+	display: flex;
+	flex-direction: row;
+}
+
+#container-flexbox-col div{
+	width:100px;
+	height:50px;
+	background-color: #ebf1f8
+}
+#container-flexbox-col{
+	display: flex;
+	flex-direction: column; 
+}
+
+#container-grid div{
+	border: 1px solid #b94a70;
+	background: #f8f5f0;
+}
+#counter-grid{
+	display: grid;
+	grid-template-columns: 
+		100px 100px 100px 100px 100px 100px;
+	grid-template-rows:
+		100px 200px 10px 100px 200px 10px;
+	color: #8e2348;
+}
+
+/*Posição absoluta*/
+#container-absolute{
+	background-color: #f8ebf1;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	width: 300px;
+	height: 100px;
+	border: 3px solid #b94a70;
+	color: #000;
+}
+
+/*Posição Estática*/
+#container-static{
+	border: 3px solid #b94a70;
+	width: 300px;
+	background-color: #f8ebf1;
+}
+
+/*Posição Relativa*/
+#container-relative{
+	position: relative;
+	left: 30 px;
+	border: 3px solid #b94a70;
+	width: 300px;
+	background-color: #f8ebf1;
+}
+
+/*Posição fixa em relação ao ponto de vista*/
+#container-fixed{
+	position: fixed;
+	bottom:0;
+	right: 0;
+	width: 300px;
+	border: 3px solid #b94a70;
+	background-color: #f8ebf1;
+}
+
+</style>
+</head>
+
+<body>
+	<h1>Flexbox Linha</h1>
+	<div id="container-flexbox-row">
+		<div>Flexbox1</div> 
+		<div>Flexbox2</div> 
+		<div>Flexbox3</div> 
+	</div>
+	
+	<h1>Flexbox Coluna</h1>
+	<div id="container-flexbox-col">
+		<div>Flexbox1</div>
+		<div>Flexbox2</div>
+		<div>Flexbox3</div>
+	</div>
+
+	<h1>Grid</h1>
+	<div id="container-grid">
+		<div>Col1</div>
+		<div>Col2</div>
+		<div>Col3</div>
+		<div>Col4</div>
+		<div>Col5</div>
+		<div>Col6</div>
+	</div>
+	
+	<h1>Posição Absoluta</h1>
+	<div id="container-absolute">
+		<div>	
+			Absolute: posicionado em relação ao elemento anterior ou, na
+		ausência desse, em relação à tag body 
+		</div>
+	</div>
+		
+	<h1>Posição Estática</h1>
+	<div id="container-static">
+		<div> Static: posicionamento natural do elemento </div>
+	</div>
+	
+	<h1>Posição Relativa</h1>
+	<div id="container-relative">
+		<div> Relative: posicionamento em relação à sua
+		posição natural (static) </div>
+	</div>
+	
+	<h1>Posição Fixa</h1>
+	<div id="container-fixed">
+		<div> Fixed: posicionamento de forma fixa em relação à
+		viwerpoint</div>
+	</div> 
+</body>
+</html>
